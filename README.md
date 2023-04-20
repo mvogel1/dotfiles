@@ -1,5 +1,23 @@
 # .dotfiles
 
+## Clone 
+Clone this repo to `.dotfiles` folder in the home directory. (`~/.dotfiles`)
+```
+cd ~
+git clone https://github.com/mvogel1/dotfiles.git .dotfiles
+cd .dotfiles
+```
+
+## Prepare a new machine with updates
+```
+source prepare.sh
+```
+
+## Install Homebrew utilities & desktop apps, and stow config files
+```
+source install.sh
+```
+
 ## Homebrew Usage
 
 ### General
